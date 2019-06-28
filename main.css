@@ -1,0 +1,131 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  background-color: #333;
+  height: 100px;
+}
+header .cont-nav a .logo{
+width: 207px;
+height: 39px;
+margin: 30px 57px;
+padding: 0;
+}
+
+header .cont-nav{
+  padding: 0;
+}
+
+.row{
+  width: 100%;
+  margin: 11px auto 0;
+
+}
+
+.bar{
+  padding: 0;
+  background: #FF9900;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bar a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+}
+
+.bar a:hover{
+  background-color: #333;
+}
+
+.row h3{
+  margin-bottom: 31px;
+  font-size: 24px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+a{
+  color: #FF9900;
+  text-decoration: underline;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.row .img-fluid{
+  margin: 30px auto;
+}
+
+.row h2{
+  font-size: 36px;
+  text-align: center;
+}
+
+.info{
+  margin-bottom: 40px;
+}
+
+form h2{
+  text-align: center;
+  font-size: 24px;
+}
+
+form label{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn{
+  background-color: #FF9900;
+  color: white;
+  border: none;
+  margin-bottom: 50px;
+}
+.btn:hover{
+  background-color: #333;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #333;
+    border-color: black;
+    box-shadow: none;
+}
+.btn-primary:hover{
+  border-color: black;
+}
+.btn-primary.focus, .btn-primary:focus{
+  box-shadow: none;
+}
+.form-control:focus{
+  box-shadow: none;
+  border-color: black;
+}
+
+footer{
+  margin: 0;
+  background-color: #333;
+  height: 80px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+footer p{
+  margin-bottom: 0;
+  padding-top: 50px;
+}
